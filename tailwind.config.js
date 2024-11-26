@@ -1,24 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./index.html","./assets",  "./css"],
   theme: {
     extend: {},
-    container:{
-      center:true
+    container: {
+      center: true
     },
     colors: {
       yellow: {
-        DEFAULT: "hsl(47, 88%, 63%)",
+        DEFAULT: "#F4D04E",
       },
-      white:{
+      white: {
         DEFAULT: "hsl(0, 0%, 100%)"
       },
       gray: {
-        light: "hsl(0, 0%, 42%)",
-        dark: "hsl(0, 0%, 7%)"
+        light: "#6B6B6B",
+        dark: "#111111"
       }
     }
   },
   plugins: [],
 }
-
