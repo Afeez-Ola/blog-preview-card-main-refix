@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       boxShadow:{
         custom: '10px 10px 0px 0px #111111',
-      }
+      },
+      
     },
     container: {
       center: true
