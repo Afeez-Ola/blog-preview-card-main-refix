@@ -820,3 +820,8 @@ video {
 .outline {
   outline-style: solid;
 }
+
+.hover\:text-yellow:hover {
+  --tw-text-opacity: 1;
+  color: rgb(244 208 78 / var(--tw-text-opacity, 1));
+}
