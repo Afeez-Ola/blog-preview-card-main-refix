@@ -807,8 +807,8 @@ video {
 }
 
 .shadow-custom {
-  --tw-shadow: 16px 14px 0px 0px #111111;
-  --tw-shadow-colored: 16px 14px 0px 0px var(--tw-shadow-color);
+  --tw-shadow: 10px 10px 0px 0px #111111;
+  --tw-shadow-colored: 10px 10px 0px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
