@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html","./assets",  "./css"],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow:{
+        custom: '16px 14px 0px 0px #111111',
+      }
+    },
     container: {
       center: true
     },
@@ -17,7 +21,12 @@ module.exports = {
         light: "#6B6B6B",
         dark: "#111111"
       }
-    }
+    },
+    screens: {
+      sm: "375px",
+      lg: "1440px"
+    },
+    
   },
   plugins: [],
 }
